@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GSAlertView_Example' do
+  pod 'GSAlertView', :path => '../'
+
+  target 'GSAlertView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
