@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GSAlertView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of GSAlertView.'
+  s.version          = '1.0.0'
+  s.summary          = 'A Flexible Custom Alert View'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'As, UIAlertView doesnt give you much of customization, so we bring a Custom Alert View which has lots of customization'
                        DESC
 
   s.homepage         = 'https://github.com/greenSyntax/GSAlertView'
@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'greenSyntax' => 'ab.abhishek.ravi@gmail.com' }
   s.source           = { :git => 'https://github.com/greenSyntax/GSAlertView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/greenSyntax'
 
   s.ios.deployment_target = '8.0'
 

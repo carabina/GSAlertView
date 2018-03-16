@@ -1,0 +1,6 @@
+framework module GSAlertView {
+  umbrella header "GSAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}
