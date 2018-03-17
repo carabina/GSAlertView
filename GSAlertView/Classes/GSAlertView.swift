@@ -30,6 +30,12 @@ public class GSAlertView: UIView, GSAlertProtocol {
         showAlertWithDescription(title, description)
     }
 
+    public convenience init(title:String, description: String, topImage: UIImage) {
+        self.init(frame: UIScreen.main.bounds)
+
+        showAlertWithTopImage(title, description, topImage)
+    }
+
     public convenience init() {
         self.init(frame: UIScreen.main.bounds)
 
@@ -130,12 +136,6 @@ public class GSAlertView: UIView, GSAlertProtocol {
         alertView.layer.cornerRadius = 6
         addSubview(alertView)
 
-    }
-
-
-
-    @objc func didTappedOnBackgroundView(){
-        dismiss(animated: true)
     }
 
 }

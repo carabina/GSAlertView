@@ -11,6 +11,8 @@
 		2C4E77488583389D7D2F6BEF2E8BCD3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		379DFB4C5581DAB9DA4F36B3F5EE194C /* GSAlertProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07292805E8E7C33FD179F8AA4AF2D8 /* GSAlertProtocol.swift */; };
 		39DDFCB336CA5318EFFEA057D295FBFF /* GSAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1524FFB71715170AA43B89E0DA0492 /* GSAlertView.swift */; };
+		6DBC0B07205D9D280097E1F6 /* GSAlertViewEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBC0B06205D9D280097E1F6 /* GSAlertViewEvent.swift */; };
+		6DBC0B0B205D9DAD0097E1F6 /* GSAlertViewTopImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBC0B0A205D9DAD0097E1F6 /* GSAlertViewTopImage.swift */; };
 		6DCBF6CD52C9BC536ADA471EB8BE9562 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9ACD9F5503442F83F7F0BAD398D33438 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		DE77AE6C682A61F93EBAB1A9AEE9F0B7 /* Pods-GSAlertView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43DAE67B806504A6EEC94B7F7FF852A0 /* Pods-GSAlertView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,13 +35,13 @@
 /* Begin PBXFileReference section */
 		0163AA10BAD834DB619815EAF77434E5 /* GSAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSAlertView.xcconfig; sourceTree = "<group>"; };
 		047780883AD91FFEB1E1989C9863412C /* Pods-GSAlertView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSAlertView_Example-dummy.m"; sourceTree = "<group>"; };
-		06BBC6F8938A7284111C22C7AF45972D /* Pods_GSAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GSAlertView_Example.framework; path = "Pods-GSAlertView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06BBC6F8938A7284111C22C7AF45972D /* Pods_GSAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		188814C4D7AFEF1EAB2ABF900DD93125 /* GSAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSAlertView-umbrella.h"; sourceTree = "<group>"; };
 		19C82B22D48EBB32861CBDB0FA3783AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24CA28F01A7D630CD846E3CA5CF802A9 /* Pods-GSAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		27DE6E3420F37BFE56263E71830CF889 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F07292805E8E7C33FD179F8AA4AF2D8 /* GSAlertProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GSAlertProtocol.swift; path = GSAlertView/Classes/GSAlertProtocol.swift; sourceTree = "<group>"; };
-		303CC64DA00AEEEC370BC783C5E96946 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		303CC64DA00AEEEC370BC783C5E96946 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		33C7045DC71F5F397796497B0E2E1605 /* Pods-GSAlertView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GSAlertView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3BB664882E5F8F43B0A0DC1F10F61839 /* GSAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GSAlertView-dummy.m"; sourceTree = "<group>"; };
 		43DAE67B806504A6EEC94B7F7FF852A0 /* Pods-GSAlertView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GSAlertView_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -47,24 +49,26 @@
 		55B5B618A4551AC37F541F356C7739C5 /* Pods-GSAlertView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSAlertView_Tests-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		696FE57BB7C8C111C0883B6A1F1F136C /* Pods-GSAlertView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSAlertView_Example-resources.sh"; sourceTree = "<group>"; };
+		6DBC0B06205D9D280097E1F6 /* GSAlertViewEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GSAlertViewEvent.swift; path = GSAlertView/Classes/GSAlertViewEvent.swift; sourceTree = "<group>"; };
+		6DBC0B0A205D9DAD0097E1F6 /* GSAlertViewTopImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GSAlertViewTopImage.swift; path = GSAlertView/Classes/GSAlertViewTopImage.swift; sourceTree = "<group>"; };
 		8CF61C927DF1D9C7D9869C5E92BB8DE9 /* GSAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GSAlertView.modulemap; sourceTree = "<group>"; };
 		922A6AA5D1FE075453818DB7D7EC061D /* Pods-GSAlertView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSAlertView_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98052E484AF9024E5DA7E7D3C588D393 /* Pods-GSAlertView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSAlertView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A49550D117037B3ECADCA4A2F36DAB96 /* Pods-GSAlertView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSAlertView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A69D4A13221B8D7BC5487B5750511251 /* Pods-GSAlertView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GSAlertView_Tests.modulemap"; sourceTree = "<group>"; };
 		ACAC7D70BB404C5C5B92B635614AD8D5 /* Pods-GSAlertView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GSAlertView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B09BCB7AC00CE2D715F445947794F37D /* GSAlertView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GSAlertView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B09BCB7AC00CE2D715F445947794F37D /* GSAlertView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GSAlertView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3D0AAA2251400264278773A7F786957 /* Pods-GSAlertView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GSAlertView_Example.modulemap"; sourceTree = "<group>"; };
 		BB9FFEB33D7C77E2E8A09AD5C8AC7E5E /* Pods-GSAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C2B163644D5BAA282F60222A81F66560 /* Pods-GSAlertView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSAlertView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CF1524FFB71715170AA43B89E0DA0492 /* GSAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GSAlertView.swift; path = GSAlertView/Classes/GSAlertView.swift; sourceTree = "<group>"; };
 		D0EC384FBBE5E6508F014B658570B1B9 /* Pods-GSAlertView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSAlertView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D4125E2F1AFF8BDE83DE6C6FA36D7E6F /* Pods-GSAlertView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GSAlertView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D4F9DD31376F9F3E397B387CDB05CC4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D4F9DD31376F9F3E397B387CDB05CC4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E564D7D72E830027CF570D8BF34EC9FA /* Pods-GSAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EF873027B922896EAF447F8D693C99C5 /* GSAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GSAlertView.framework; path = GSAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F623B3E579146E0DCACC08E12C4253C9 /* Pods_GSAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GSAlertView_Tests.framework; path = "Pods-GSAlertView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF873027B922896EAF447F8D693C99C5 /* GSAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GSAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F623B3E579146E0DCACC08E12C4253C9 /* Pods_GSAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B120808CC029D1627BC5D484AB6EC5 /* GSAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSAlertView-prefix.pch"; sourceTree = "<group>"; };
 		FAF34332BF1420455F276F77DB0EAF9E /* Pods-GSAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,6 +166,8 @@
 		90A5B5ECE469B5BAE816B66B428D13D6 /* GSAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				6DBC0B0A205D9DAD0097E1F6 /* GSAlertViewTopImage.swift */,
+				6DBC0B06205D9D280097E1F6 /* GSAlertViewEvent.swift */,
 				2F07292805E8E7C33FD179F8AA4AF2D8 /* GSAlertProtocol.swift */,
 				CF1524FFB71715170AA43B89E0DA0492 /* GSAlertView.swift */,
 				018B7365C387CDDEAF74286006677041 /* Pod */,
@@ -346,9 +352,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DBC0B07205D9D280097E1F6 /* GSAlertViewEvent.swift in Sources */,
 				379DFB4C5581DAB9DA4F36B3F5EE194C /* GSAlertProtocol.swift in Sources */,
 				E3F4971A243DA7E0F1DEBBC5DABC90CF /* GSAlertView-dummy.m in Sources */,
 				39DDFCB336CA5318EFFEA057D295FBFF /* GSAlertView.swift in Sources */,
+				6DBC0B0B205D9DAD0097E1F6 /* GSAlertViewTopImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
