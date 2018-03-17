@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/GSAlertView.svg?style=flat)](http://cocoapods.org/pods/GSAlertView)
 
 ![Screenshot](screenshot.gif)
-![Screenshot](screenshot_2.png)
+![Screenshot](screenshot2.gif)
 
 ## Features
 
