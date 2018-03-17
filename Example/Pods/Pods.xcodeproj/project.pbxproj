@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1CF7618F3787E8F3E86FA2E12B5A1CA4 /* GSAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A1BD8447E04BF87B121B0B2CAE1BF /* GSAlertView.swift */; };
+		289E8B201EB091B4D66F18D307FAB4E6 /* GSAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 188814C4D7AFEF1EAB2ABF900DD93125 /* GSAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C4E77488583389D7D2F6BEF2E8BCD3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		63FC96158843EB666AFDF5FD62BE5AC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6DBC0AFF205C17070097E1F6 /* GSAlertProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBC0AFE205C17070097E1F6 /* GSAlertProtocol.swift */; };
+		379DFB4C5581DAB9DA4F36B3F5EE194C /* GSAlertProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F07292805E8E7C33FD179F8AA4AF2D8 /* GSAlertProtocol.swift */; };
+		39DDFCB336CA5318EFFEA057D295FBFF /* GSAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1524FFB71715170AA43B89E0DA0492 /* GSAlertView.swift */; };
+		6DCBF6CD52C9BC536ADA471EB8BE9562 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9ACD9F5503442F83F7F0BAD398D33438 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		AB91B1D13027DBD4BB6C0F1BE0CFC2F3 /* GSAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68717FC2EF5CCDC4DA4FF346DDA47200 /* GSAlertView-dummy.m */; };
-		BE83F7207C69EF62CD08752DD20A3467 /* GSAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDCB0FFFB273C7F9510B1DBD0C0FA1EE /* GSAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE77AE6C682A61F93EBAB1A9AEE9F0B7 /* Pods-GSAlertView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43DAE67B806504A6EEC94B7F7FF852A0 /* Pods-GSAlertView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E250BAD7F6EA79720C37F4EE320372B3 /* Pods-GSAlertView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACAC7D70BB404C5C5B92B635614AD8D5 /* Pods-GSAlertView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3F4971A243DA7E0F1DEBBC5DABC90CF /* GSAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB664882E5F8F43B0A0DC1F10F61839 /* GSAlertView-dummy.m */; };
 		E6799A9C6980176FA23B08E3EFCD5CF6 /* Pods-GSAlertView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 047780883AD91FFEB1E1989C9863412C /* Pods-GSAlertView_Example-dummy.m */; };
 		F487D95A7812FBAC88731A9CE919A8D6 /* Pods-GSAlertView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 922A6AA5D1FE075453818DB7D7EC061D /* Pods-GSAlertView_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -25,47 +25,47 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A5143A90AD927AEDA80388F29A5CAF8A;
+			remoteGlobalIDString = 9C4BA1425A23F7316D7ABC4217E88D16;
 			remoteInfo = GSAlertView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0163AA10BAD834DB619815EAF77434E5 /* GSAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSAlertView.xcconfig; sourceTree = "<group>"; };
 		047780883AD91FFEB1E1989C9863412C /* Pods-GSAlertView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSAlertView_Example-dummy.m"; sourceTree = "<group>"; };
-		06BBC6F8938A7284111C22C7AF45972D /* Pods_GSAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06BBC6F8938A7284111C22C7AF45972D /* Pods_GSAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GSAlertView_Example.framework; path = "Pods-GSAlertView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		188814C4D7AFEF1EAB2ABF900DD93125 /* GSAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSAlertView-umbrella.h"; sourceTree = "<group>"; };
 		19C82B22D48EBB32861CBDB0FA3783AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24CA28F01A7D630CD846E3CA5CF802A9 /* Pods-GSAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		27DE6E3420F37BFE56263E71830CF889 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F07292805E8E7C33FD179F8AA4AF2D8 /* GSAlertProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GSAlertProtocol.swift; path = GSAlertView/Classes/GSAlertProtocol.swift; sourceTree = "<group>"; };
+		303CC64DA00AEEEC370BC783C5E96946 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		33C7045DC71F5F397796497B0E2E1605 /* Pods-GSAlertView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GSAlertView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		37181BD1196A8FE5181519FFB411DCD3 /* GSAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSAlertView.xcconfig; sourceTree = "<group>"; };
+		3BB664882E5F8F43B0A0DC1F10F61839 /* GSAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GSAlertView-dummy.m"; sourceTree = "<group>"; };
 		43DAE67B806504A6EEC94B7F7FF852A0 /* Pods-GSAlertView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GSAlertView_Example-umbrella.h"; sourceTree = "<group>"; };
-		4A9A1BD8447E04BF87B121B0B2CAE1BF /* GSAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GSAlertView.swift; path = GSAlertView/Classes/GSAlertView.swift; sourceTree = "<group>"; };
 		4B0980BBBFD4C78DD1F460B9468CBE18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C476CF683AFBAA96859CD0D2CD20F38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55B5B618A4551AC37F541F356C7739C5 /* Pods-GSAlertView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSAlertView_Tests-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		68717FC2EF5CCDC4DA4FF346DDA47200 /* GSAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GSAlertView-dummy.m"; sourceTree = "<group>"; };
 		696FE57BB7C8C111C0883B6A1F1F136C /* Pods-GSAlertView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSAlertView_Example-resources.sh"; sourceTree = "<group>"; };
-		6DBC0AFE205C17070097E1F6 /* GSAlertProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GSAlertProtocol.swift; path = GSAlertView/Classes/GSAlertProtocol.swift; sourceTree = "<group>"; };
-		8154EF86E3B356925A764DE9D85226DB /* GSAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GSAlertView.modulemap; sourceTree = "<group>"; };
-		91BE2F7DD3DC72F7D14D93BB30D0F1B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8CF61C927DF1D9C7D9869C5E92BB8DE9 /* GSAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GSAlertView.modulemap; sourceTree = "<group>"; };
 		922A6AA5D1FE075453818DB7D7EC061D /* Pods-GSAlertView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSAlertView_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98052E484AF9024E5DA7E7D3C588D393 /* Pods-GSAlertView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSAlertView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A49550D117037B3ECADCA4A2F36DAB96 /* Pods-GSAlertView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSAlertView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A69D4A13221B8D7BC5487B5750511251 /* Pods-GSAlertView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GSAlertView_Tests.modulemap"; sourceTree = "<group>"; };
 		ACAC7D70BB404C5C5B92B635614AD8D5 /* Pods-GSAlertView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GSAlertView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AF3508F69160D8CEA429399E6236C4A7 /* GSAlertView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GSAlertView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B09BCB7AC00CE2D715F445947794F37D /* GSAlertView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GSAlertView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3D0AAA2251400264278773A7F786957 /* Pods-GSAlertView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GSAlertView_Example.modulemap"; sourceTree = "<group>"; };
 		BB9FFEB33D7C77E2E8A09AD5C8AC7E5E /* Pods-GSAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BDFE3524625C8D88E72C0CCC3E00406E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C2B163644D5BAA282F60222A81F66560 /* Pods-GSAlertView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSAlertView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CDCB0FFFB273C7F9510B1DBD0C0FA1EE /* GSAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSAlertView-umbrella.h"; sourceTree = "<group>"; };
+		CF1524FFB71715170AA43B89E0DA0492 /* GSAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GSAlertView.swift; path = GSAlertView/Classes/GSAlertView.swift; sourceTree = "<group>"; };
 		D0EC384FBBE5E6508F014B658570B1B9 /* Pods-GSAlertView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSAlertView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D4125E2F1AFF8BDE83DE6C6FA36D7E6F /* Pods-GSAlertView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GSAlertView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D42A5CA23B825E82BA81B1CF1972A04C /* GSAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSAlertView-prefix.pch"; sourceTree = "<group>"; };
+		D4F9DD31376F9F3E397B387CDB05CC4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E564D7D72E830027CF570D8BF34EC9FA /* Pods-GSAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EF873027B922896EAF447F8D693C99C5 /* GSAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GSAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F623B3E579146E0DCACC08E12C4253C9 /* Pods_GSAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF873027B922896EAF447F8D693C99C5 /* GSAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GSAlertView.framework; path = GSAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F623B3E579146E0DCACC08E12C4253C9 /* Pods_GSAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GSAlertView_Tests.framework; path = "Pods-GSAlertView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B120808CC029D1627BC5D484AB6EC5 /* GSAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSAlertView-prefix.pch"; sourceTree = "<group>"; };
 		FAF34332BF1420455F276F77DB0EAF9E /* Pods-GSAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,11 +78,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA18BADC3D44F35D803DE68E722F9733 /* Frameworks */ = {
+		8ECA2F09255D8653AD9DC8405871CC80 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63FC96158843EB666AFDF5FD62BE5AC3 /* Foundation.framework in Frameworks */,
+				6DCBF6CD52C9BC536ADA471EB8BE9562 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +97,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		018B7365C387CDDEAF74286006677041 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B09BCB7AC00CE2D715F445947794F37D /* GSAlertView.podspec */,
+				303CC64DA00AEEEC370BC783C5E96946 /* LICENSE */,
+				D4F9DD31376F9F3E397B387CDB05CC4F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		0AF359D999B37D6F42113C80FD5E547D /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,25 +126,49 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		743AAD60FF351CDC60E18BC63EE5CD24 /* Pod */ = {
+		28526EB9D24FE6FE68696166EB3AB769 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AF3508F69160D8CEA429399E6236C4A7 /* GSAlertView.podspec */,
-				91BE2F7DD3DC72F7D14D93BB30D0F1B8 /* LICENSE */,
-				BDFE3524625C8D88E72C0CCC3E00406E /* README.md */,
+				8CF61C927DF1D9C7D9869C5E92BB8DE9 /* GSAlertView.modulemap */,
+				0163AA10BAD834DB619815EAF77434E5 /* GSAlertView.xcconfig */,
+				3BB664882E5F8F43B0A0DC1F10F61839 /* GSAlertView-dummy.m */,
+				F9B120808CC029D1627BC5D484AB6EC5 /* GSAlertView-prefix.pch */,
+				188814C4D7AFEF1EAB2ABF900DD93125 /* GSAlertView-umbrella.h */,
+				27DE6E3420F37BFE56263E71830CF889 /* Info.plist */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GSAlertView";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F288D550F7B0E444953E58F6F74099B7 /* Development Pods */,
+				85BF4D1534C22A5BE9FB4D42549E9021 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				0AF359D999B37D6F42113C80FD5E547D /* Products */,
 				19496F544665273EDEE4217F150238AC /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		85BF4D1534C22A5BE9FB4D42549E9021 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90A5B5ECE469B5BAE816B66B428D13D6 /* GSAlertView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		90A5B5ECE469B5BAE816B66B428D13D6 /* GSAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				2F07292805E8E7C33FD179F8AA4AF2D8 /* GSAlertProtocol.swift */,
+				CF1524FFB71715170AA43B89E0DA0492 /* GSAlertView.swift */,
+				018B7365C387CDDEAF74286006677041 /* Pod */,
+				28526EB9D24FE6FE68696166EB3AB769 /* Support Files */,
+			);
+			name = GSAlertView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9EBEBB451F471D0314D31E122856B426 /* Pods-GSAlertView_Example */ = {
@@ -163,38 +197,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D063AA5DF6BB9EC1A6ACEF2EF54BA1C1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8154EF86E3B356925A764DE9D85226DB /* GSAlertView.modulemap */,
-				37181BD1196A8FE5181519FFB411DCD3 /* GSAlertView.xcconfig */,
-				68717FC2EF5CCDC4DA4FF346DDA47200 /* GSAlertView-dummy.m */,
-				D42A5CA23B825E82BA81B1CF1972A04C /* GSAlertView-prefix.pch */,
-				CDCB0FFFB273C7F9510B1DBD0C0FA1EE /* GSAlertView-umbrella.h */,
-				4C476CF683AFBAA96859CD0D2CD20F38 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GSAlertView";
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		D5E4A9ABA1D353AB0D8333E2B8426BF2 /* GSAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				6DBC0AFE205C17070097E1F6 /* GSAlertProtocol.swift */,
-				4A9A1BD8447E04BF87B121B0B2CAE1BF /* GSAlertView.swift */,
-				743AAD60FF351CDC60E18BC63EE5CD24 /* Pod */,
-				D063AA5DF6BB9EC1A6ACEF2EF54BA1C1 /* Support Files */,
-			);
-			name = GSAlertView;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		D94A7DB6FF77B78D5DBB5E1BD880C7A6 /* Pods-GSAlertView_Tests */ = {
@@ -215,17 +223,17 @@
 			path = "Target Support Files/Pods-GSAlertView_Tests";
 			sourceTree = "<group>";
 		};
-		F288D550F7B0E444953E58F6F74099B7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D5E4A9ABA1D353AB0D8333E2B8426BF2 /* GSAlertView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0AF1154A060482A3F1CA6586D7D3F2EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289E8B201EB091B4D66F18D307FAB4E6 /* GSAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		71779258E11538F9D60292AE7BFD6B14 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -239,14 +247,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE77AE6C682A61F93EBAB1A9AEE9F0B7 /* Pods-GSAlertView_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D527B79EB0B6CA5444703B275CC2116D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE83F7207C69EF62CD08752DD20A3467 /* GSAlertView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,13 +271,13 @@
 			productReference = 06BBC6F8938A7284111C22C7AF45972D /* Pods_GSAlertView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A5143A90AD927AEDA80388F29A5CAF8A /* GSAlertView */ = {
+		9C4BA1425A23F7316D7ABC4217E88D16 /* GSAlertView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 461819B5739CAE5893984E2F3AF72DAC /* Build configuration list for PBXNativeTarget "GSAlertView" */;
+			buildConfigurationList = 49D9CD8A073CD54C5688FB147C0F5F72 /* Build configuration list for PBXNativeTarget "GSAlertView" */;
 			buildPhases = (
-				3B699176578CBE69ACAF4D63FEBFC0AC /* Sources */,
-				AA18BADC3D44F35D803DE68E722F9733 /* Frameworks */,
-				D527B79EB0B6CA5444703B275CC2116D /* Headers */,
+				DCB78D9ACC1E95B7B015722562F9B765 /* Sources */,
+				8ECA2F09255D8653AD9DC8405871CC80 /* Frameworks */,
+				0AF1154A060482A3F1CA6586D7D3F2EB /* Headers */,
 			);
 			buildRules = (
 			);
@@ -326,7 +326,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5143A90AD927AEDA80388F29A5CAF8A /* GSAlertView */,
+				9C4BA1425A23F7316D7ABC4217E88D16 /* GSAlertView */,
 				121F59309DF51F343A60E443C7543DB7 /* Pods-GSAlertView_Example */,
 				F5998160D0E1E9D8CF8F6E840AA38C11 /* Pods-GSAlertView_Tests */,
 			);
@@ -334,21 +334,21 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B699176578CBE69ACAF4D63FEBFC0AC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB91B1D13027DBD4BB6C0F1BE0CFC2F3 /* GSAlertView-dummy.m in Sources */,
-				6DBC0AFF205C17070097E1F6 /* GSAlertProtocol.swift in Sources */,
-				1CF7618F3787E8F3E86FA2E12B5A1CA4 /* GSAlertView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7413394F514F96B1D10F824F0B97A45D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E6799A9C6980176FA23B08E3EFCD5CF6 /* Pods-GSAlertView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB78D9ACC1E95B7B015722562F9B765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379DFB4C5581DAB9DA4F36B3F5EE194C /* GSAlertProtocol.swift in Sources */,
+				E3F4971A243DA7E0F1DEBBC5DABC90CF /* GSAlertView-dummy.m in Sources */,
+				39DDFCB336CA5318EFFEA057D295FBFF /* GSAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,15 +366,15 @@
 		CFBDF69200AB39C3BABE441643FB8AAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GSAlertView;
-			target = A5143A90AD927AEDA80388F29A5CAF8A /* GSAlertView */;
+			target = 9C4BA1425A23F7316D7ABC4217E88D16 /* GSAlertView */;
 			targetProxy = 30D1F02DB94863777B8F7BFCF8FA4679 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0039956C54A28A6990A4CEEE4AC1E38D /* Release */ = {
+		4193246DCC7A42703A1190E1E075FF5F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37181BD1196A8FE5181519FFB411DCD3 /* GSAlertView.xcconfig */;
+			baseConfigurationReference = 0163AA10BAD834DB619815EAF77434E5 /* GSAlertView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -395,14 +395,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		42370B381597FC88C31A5E47FC8CEF3D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -593,37 +592,6 @@
 			};
 			name = Release;
 		};
-		865D5888490E13E22415425F90A61439 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37181BD1196A8FE5181519FFB411DCD3 /* GSAlertView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GSAlertView/GSAlertView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GSAlertView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GSAlertView/GSAlertView.modulemap";
-				PRODUCT_NAME = GSAlertView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		89D54D7D0F6B26B858E0C623179B7751 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E564D7D72E830027CF570D8BF34EC9FA /* Pods-GSAlertView_Tests.release.xcconfig */;
@@ -650,6 +618,38 @@
 				PRODUCT_NAME = Pods_GSAlertView_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A464C619244395464EF48211B9227A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0163AA10BAD834DB619815EAF77434E5 /* GSAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GSAlertView/GSAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GSAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GSAlertView/GSAlertView.modulemap";
+				PRODUCT_NAME = GSAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -710,11 +710,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		461819B5739CAE5893984E2F3AF72DAC /* Build configuration list for PBXNativeTarget "GSAlertView" */ = {
+		49D9CD8A073CD54C5688FB147C0F5F72 /* Build configuration list for PBXNativeTarget "GSAlertView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				865D5888490E13E22415425F90A61439 /* Debug */,
-				0039956C54A28A6990A4CEEE4AC1E38D /* Release */,
+				4193246DCC7A42703A1190E1E075FF5F /* Debug */,
+				A464C619244395464EF48211B9227A60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

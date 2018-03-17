@@ -1,5 +1,5 @@
 PODS:
-  - GSAlertView (0.1.0)
+  - GSAlertView (1.0.0)
 
 DEPENDENCIES:
   - GSAlertView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  GSAlertView: b003dcb91dfb5306956c7a546e2b2764bb9e93c6
+  GSAlertView: 9f4c2e426ab8a70658c3566f865df3a614b187be
 
 PODFILE CHECKSUM: 7d6af174b0d3ec158b54e71fc39ceb8a9cea0109
 
