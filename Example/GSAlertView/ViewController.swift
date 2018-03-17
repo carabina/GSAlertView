@@ -25,7 +25,7 @@ class ViewController: UIViewController {
 
         let imageSample = UIImage(named: "sample")
 
-        let alert = GSAlertView(title: "Hello India", image: imageSample!)
+        let alert = GSAlertView(title: "Hello World", image: imageSample!)
         //let alert = GSAlertView(title: "Hello World", description: "When there is no water in this word, then all thirsty people will die with thirst")
         alert.show(animated: true)
 

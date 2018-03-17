@@ -5,11 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/GSAlertView.svg?style=flat)](http://cocoapods.org/pods/GSAlertView)
 [![Platform](https://img.shields.io/cocoapods/p/GSAlertView.svg?style=flat)](http://cocoapods.org/pods/GSAlertView)
 
-## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Features
 
-## Requirements
+- [x] AlertView with Title and it's Description
+- [x] Alert with with Title and its Body Image
+- [ ] Alert View with Header Icon with Title and body
+- [ ] Fotter View with Image on left and text description
+
 
 ## Installation
 
@@ -20,9 +23,29 @@ it, simply add the following line to your Podfile:
 pod 'GSAlertView'
 ```
 
+## Code
+
+#### AlertView with Title and it's Description
+
+```swift
+
+let alert = GSAlertView(title: "Hello World", image: imageSample)
+alert.show(animated: true)
+
+```
+
+#### Alert with with Title and its Body Image
+
+```swift
+
+let alert = let alert = GSAlertView(title: "Hello World", description:"This is my description")
+alert.show(animated: true)
+
+```
+
 ## Author
 
-greenSyntax, ab.abhishek.ravi@gmail.com
+(Abhishek Kumar Ravi)[https://greensyntax.co.in]
 
 ## License
 
