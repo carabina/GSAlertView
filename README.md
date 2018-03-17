@@ -45,7 +45,7 @@ alert.show(animated: true)
 
 ## Author
 
-(Abhishek Kumar Ravi)[https://greensyntax.co.in]
+[Abhishek Kumar Ravi](https://greensyntax.co.in)
 
 ## License
 
