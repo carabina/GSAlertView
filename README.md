@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/GSAlertView.svg?style=flat)](http://cocoapods.org/pods/GSAlertView)
 [![Platform](https://img.shields.io/cocoapods/p/GSAlertView.svg?style=flat)](http://cocoapods.org/pods/GSAlertView)
 
+![Screenshot](screenshot.gif)
 
 ## Features
 
